@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Hit The Circle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Hit the Circle</div>
+      <div class="tagline">Test your skills how many circles you can hit?</div>
+      <div class="score">
+        Score: <input id="scoreField" type="text" value="" />
+      </div>
+      <hr />
+      <div class="gameArea">
+        <div class="circleGrid" id="circleGrid"></div>
+      </div>
+      <hr />
+      <div class="buttons">
+        <button onclick="onPlay()">Play</button>
+        <button onclick="onStop()">Stop</button>
+      </div>
+      <div class="instructions">
+        Instruction :- <br />
+        1. Click on the circles as they are selected randomly by the computer <br/>
+        2. 1 point per hit, minus 1 per miss
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

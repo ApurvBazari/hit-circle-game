@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+}
+
+.header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tagline {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+input {
+  margin-left: 10px;
+  font-size: 15px;
+  width: 100px;
+}
+
+.circle {
+  border: 2px solid #C2CDD6;
+  background-color: #F3F6F8;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.circle:hover {
+  background-color: #C2CDD6;
+  cursor: pointer;
+}
+
+.circleGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 40px);
+  grid-template-rows: repeat(6, 40px);
+}
+
+.gameArea {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin: 10px 0;
+  border: .5px solid;
+  opacity: 0.2;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #007BD5;
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:nth-child(2) {
+  background-color: #DDE7EE;
+  color: black;
+  margin-left: 10px;
+}
